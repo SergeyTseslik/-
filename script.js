@@ -18,7 +18,7 @@ personalMovieDB.movie[c] = d ;
 console.log(personalMovieDB);
 
 "use strict";
-if (4 == 0) {
+if (4 == 4) {
 	console.log("ok");
 } else {
 	console.log("error");
@@ -49,4 +49,33 @@ case "50":
 default:
 	console.log("Не в этот раз");
 	break;
+}
+
+if (4 == 4) {
+	console.log("OK");
+} else {
+	console.log(Error);
+}
+
+const num = "Hello world";
+console.log(num);
+
+let vi = (8*2+2);
+console.log(vi * 2);
+
+let mik = 1;
+if (mik == 10) {
+console.log("GOOD");
+} else if (mik < 10) {
+console.log("Недостаточно");
+}
+
+const pir = 1;
+switch (pir) {
+    case 10:
+        console.log("Готово");
+        break;
+        default:
+            console.log("Не в этот раз");
+            break;
 }
